@@ -1,8 +1,8 @@
-const Header = require("../header/Header");
-const Subheading = require("../subheading/Subheading");
-const Paragraph = require("../paragraph/Paragraph");
+const Header = require("../header");
+const Subheading = require("../subheading");
+const Paragraph = require("../paragraph");
 
-require.ensure(["react", "react-dom"], require => {
+require.ensure(["react", "react-dom"], require => { // lazy loading...
  const React = require("react");
  const ReactDOM = require("react-dom");
 
