@@ -6,7 +6,7 @@ const langs = ["en", "vi"];
 
 module.exports = langs.map(lang => {
  return {
-  entry: path.join(__dirname, dirPath, `app.v2.js`),
+  entry: path.join(__dirname, dirPath, `app.js`),
   output: {
    path: path.resolve(__dirname, "dist"),
    filename: `bundle.${lang}.js`
